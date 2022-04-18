@@ -1,11 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Persona from "./Persona"
+import Estudiante from "./Estudiante"
+let jordan = {
+  nombre: "Jordan", 
+  apellido : "Albano",
+  edad : 20,
+  legajo : "287712",
+  carrera : "Licenciatura en Sistemas",
+  dni : 44041779,
+  materias : [
+    {materia: "Orientacion a objetos 2", hora: "4hrs semanales"},
+    {materia : "matematica 2" , hora: "4hs semanales"},
+    {materia: "Ing software 2", hora : "4hs semanales"},
+    {materia:"Sist y organizaciones",hora: "4hs semanales"},
+    ]
+};
+
 ReactDOM.render(
   <React.StrictMode>
-  <Persona/>
+  <Estudiante estudiante = {jordan} />
   </React.StrictMode>,
   document.getElementById('root')
 );
