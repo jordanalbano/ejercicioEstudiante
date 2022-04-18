@@ -11,13 +11,8 @@ let jordan = {
   legajo : "287712",
   carrera : "Licenciatura en Sistemas",
   dni : 44041779,
-  materias : [
-    {materia: "Orientacion a objetos 2", hora: "4hrs semanales"},
-    {materia : "matematica 2" , hora: "4hs semanales"},
-    {materia: "Ing software 2", hora : "4hs semanales"},
-    {materia:"Sist y organizaciones",hora: "4hs semanales"},
-    ]
-};
+  materias : [ "Orientacion a objetos 2", "matematica 2", "Ing software 2","Sist y organizaciones" ],
+}
 
 ReactDOM.render(
   <React.StrictMode>
