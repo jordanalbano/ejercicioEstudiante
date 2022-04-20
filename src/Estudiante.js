@@ -21,8 +21,6 @@ export default class Estudiante extends Component {
             },
         ],
         };
-        
-
         this.inscribirse = this.inscribirse.bind(this);
     }      
 
